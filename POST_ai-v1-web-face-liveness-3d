@@ -1,0 +1,21 @@
+{
+  "imgs": {
+    "near_img": "idg20220303-cf3a45c7-288e-77ae-e053-63199f0a4e4a/IDG01_6cd47dcd-9aa1-11ec-bd00-1db1b691313b",
+    "far_img": "idg20220303-cf3a45c7-288e-77ae-e053-63199f0a4e4a/IDG01_688a9f23-9aa1-11ec-8965-3b903005bc3b"
+  },
+  "dataSign": "et6P67kM7X/hCN5iDNYSe2DDuCb0GknowEuYeO7dzV7uu3FM2zSK2ayDqTfNjSGxbZtfGC5ExMGXDhXxTQ1uOw==",
+  "dataBase64": "eyJpbWdzIjp7Im5lYXJfaW1nIjoiaWRnMjAyMjAzMDMtY2YzYTQ1YzctMjg4ZS03N2FlLWUwNTMtNjMxOTlmMGE0ZTRhL0lERzAxXzZjZDQ3ZGNkLTlhYTEtMTFlYy1iZDAwLTFkYjFiNjkxMzEzYiIsImZhcl9pbWciOiJpZGcyMDIyMDMwMy1jZjNhNDVjNy0yODhlLTc3YWUtZTA1My02MzE5OWYwYTRlNGEvSURHMDFfNjg4YTlmMjMtOWFhMS0xMWVjLTg5NjUtM2I5MDMwMDViYzNiIn0sIm1lc3NhZ2UiOiJJREctMDAwMDAwMDAiLCJzZXJ2ZXJfdmVyc2lvbiI6IjEuMy4xNiIsIm9iamVjdCI6eyJsaXZlbmVzcyI6InN1Y2Nlc3MiLCJibHVyX2ZhY2UiOiJubyIsImxpdmVuZXNzX21zZyI6Ik5nxrDhu51pIHRo4bqtdCIsImlzX2V5ZV9vcGVuIjoieWVzIiwibGl2ZW5lc3NfcHJvYiI6MC4xMTUyNDcwMDAwMDg4MjE0OSwiYmx1cl9mYWNlX3Njb3JlIjowfSwic3RhdHVzQ29kZSI6MjAwLCJjaGFsbGVuZ2VDb2RlIjoiMTExMTEifQ==",
+  "logID": "6d172c1c-9aa1-11ec-be3e-39983a3ade03-4a99d94f-Zuulserver2",
+  "message": "IDG-00000000",
+  "server_version": "1.3.16",
+  "object": {
+    "liveness": "success",
+    "blur_face": "no",
+    "liveness_msg": "Người thật",
+    "is_eye_open": "yes",
+    "liveness_prob": 0.11524700000882149,
+    "blur_face_score": 0
+  },
+  "statusCode": 200,
+  "challengeCode": "11111"
+}
