@@ -1,0 +1,22 @@
+{
+  "imgs": {
+    "img": "idg20220303-cf3a45c7-288e-77ae-e053-63199f0a4e4a/IDG01_43c5440d-9aa7-11ec-8965-7dfe6ecd3a29"
+  },
+  "dataSign": "GzZo0mVdoMT7E9cBrZd6oJRPI7RhSrZfTIm63J36EHvtGy5ktq7GUEHFMyJSBQ564/DucFI98krf8gb2JFcjRA==",
+  "dataBase64": "eyJpbWdzIjp7ImltZyI6ImlkZzIwMjIwMzAzLWNmM2E0NWM3LTI4OGUtNzdhZS1lMDUzLTYzMTk5ZjBhNGU0YS9JREcwMV80M2M1NDQwZC05YWE3LTExZWMtODk2NS03ZGZlNmVjZDNhMjkifSwibWVzc2FnZSI6IklERy0wMDAwMDAwMCIsInNlcnZlcl92ZXJzaW9uIjoiMS4zLjE2Iiwib2JqZWN0Ijp7ImZhY2Vfc3dhcHBpbmciOmZhbHNlLCJmYWtlX3ByaW50X3Bob3RvIjpmYWxzZSwiZmFjZV9zd2FwcGluZ19wcm9iIjowLCJmYWtlX2xpdmVuZXNzX3Byb2IiOjAuMTIxMTM5OTczNDAyMDIzMzIsImxpdmVuZXNzIjoic3VjY2VzcyIsImZha2VfbGl2ZW5lc3MiOmZhbHNlLCJmYWtlX3ByaW50X3Bob3RvX3Byb2IiOjAuMTAxNjAxNTQxMDQyMzI3ODgsImxpdmVuZXNzX21zZyI6Ikdp4bqleSB04budIHRo4bqtdCJ9LCJzdGF0dXNDb2RlIjoyMDAsImNoYWxsZW5nZUNvZGUiOiIxMTExMSJ9",
+  "logID": "618e8a82-9aa7-11ec-8578-4594a67c1520-dfb6565a-Zuulserver3",
+  "message": "IDG-00000000",
+  "server_version": "1.3.16",
+  "object": {
+    "face_swapping": false,
+    "fake_print_photo": false,
+    "face_swapping_prob": 0,
+    "fake_liveness_prob": 0.12113997340202332,
+    "liveness": "success",
+    "fake_liveness": false,
+    "fake_print_photo_prob": 0.10160154104232788,
+    "liveness_msg": "Giấy tờ thật"
+  },
+  "statusCode": 200,
+  "challengeCode": "11111"
+}
