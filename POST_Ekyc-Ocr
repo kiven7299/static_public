@@ -1,0 +1,25 @@
+POST /Ekyc/Ocr HTTP/1.1
+Host: dop-uat.hdbank.com.vn:8888
+Cookie: .AspNetCore.Antiforgery.iG_nrqttJ84=CfDJ8NSmd-OdB-lJtoEHZCEwmBKpsF8RJ74004-2PDLVTfFZ077ImJhJ747NFCv7pGTdxbJuTdKDXDlEG6dBnBV5rpVvTV6RPtqgFDRGiDzEAXUIZXoZ1NnsWPMl8V3fw34l_pHV3t5vXtbN28sHb-MhT1w; _gcl_au=1.1.240901912.1646315337; _gid=GA1.3.252032053.1646315342; _fbp=fb.2.1646315352541.31882058; .AspNetCore.Session=CfDJ8NSmd%2BOdB%2BlJtoEHZCEwmBKrB1fN9bgmjxPKkn1xtWq%2FcMuYHm33D%2BFish%2FZu9e0akVzESSk%2FzquvxrGgRNrvxHo6Sf5d9OIklTkhW7iG%2B4V8oMCdQrk%2B7xZc762Ev%2Fhz4cvTTYDWXV6kH1cRabtwUUDn1%2BLBw9NMeBi8rfesPWe; _ga=GA1.3.67093011.1646315318; _ga_5FWB89V9GJ=GS1.1.1646315317.1.1.1646317880.0
+Content-Length: 392
+Sec-Ch-Ua: " Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"
+Accept: */*
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryht8xBDLxBLytj0vV
+X-Requested-With: XMLHttpRequest
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36
+Sec-Ch-Ua-Platform: "Windows"
+Origin: https://dop-uat.hdbank.com.vn:8888
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://dop-uat.hdbank.com.vn:8888/Ekyc/Ocr
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Connection: close
+
+------WebKitFormBoundaryht8xBDLxBLytj0vV
+Content-Disposition: form-data; name="Ekyc"
+
+{"name":"Nguyen Van Pentest","issue_date":"03/03/2019","id":"01234567809","birth_day":"07/06/2000","gender":"M","address_permanent":"So nha ten duong 123","district_permanent":"146","ward_permanent":"12272","province_permanent":"114","issue_place":"TP.HCM"}
+------WebKitFormBoundaryht8xBDLxBLytj0vV--
