@@ -1,0 +1,25 @@
+POST /Ekyc/Ocr HTTP/1.1
+Host: dop-uat.hdbank.com.vn:8888
+Cookie: <<Cookie>>
+Content-Length: 392
+Sec-Ch-Ua: " Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"
+Accept: */*
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryht8xBDLxBLytj0vV
+X-Requested-With: XMLHttpRequest
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36
+Sec-Ch-Ua-Platform: "Windows"
+Origin: https://dop-uat.hdbank.com.vn:8888
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://dop-uat.hdbank.com.vn:8888/Ekyc/Ocr
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Connection: close
+
+------WebKitFormBoundaryht8xBDLxBLytj0vV
+Content-Disposition: form-data; name="Ekyc"
+
+{"name":"<<Họ và tên>>","issue_date":"<<Ngày cấp>>","id":"<<Số CMND/CCCD>>","birth_day":"<<Ngày tháng năm sinh>>","gender":"<<M|F>>","address_permanent":"So nha ten duong 123","district_permanent":"146","ward_permanent":"12272","province_permanent":"114","issue_place":"<<Nơi cấp>>"}
+------WebKitFormBoundaryht8xBDLxBLytj0vV--
